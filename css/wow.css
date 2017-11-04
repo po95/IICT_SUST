@@ -1,0 +1,141 @@
+/*<!-- 
+Author: sourav sarker.
+CSE SUST
+REG NO: 2014331039 
+-->*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+div#header{
+	width: 100%;
+	height: 92px;
+	background-color: #2C3E50;
+	margin: 0 auto ;
+}
+.logo{
+	float:left;
+	margin-top:4px;
+	padding-left: 30px;
+}
+
+.logo a{
+	font-size: 1.8em;
+	color: #fff;
+}
+
+.logo a span{
+	font-size: 1.8em;color: #fff;font-weight: 300;letter-spacing: 3px;
+}
+
+
+.sidebar{
+	width:250px;
+	/*height:100%;*/
+	background-color: #171717;
+	position: absolute;
+	margin-bottom: -200px; 
+    padding-bottom: 800px;
+
+
+}
+.content{ 
+	width: auto;
+	height:  100%; 
+	background-color: #F0E9E7  ;
+	padding-left: 30px;
+}
+.content p{
+	color:#424242;
+}
+ul#nava{
+	padding-top: 30px;
+}
+ul#nava li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+ul#nava li a{
+	color:#ccc;
+	display: block;
+	padding:12px;
+	font-size: 0.8em;
+	border-bottom: 1px solid #0A0A0A;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+ul#nava li a:hover{
+	background-color: #030303;
+	color: #fff;
+	padding-left: 30px;
+}
+
+ul#nava li a.selected{
+	background-color: #030303;
+	color: #fff;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.button {
+    background-color: #566573;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.button:hover{
+	text-decoration: none;
+	background-color: #52BE80;
+}
+
+
+
+.thumbnail a:hover{
+
+	text-decoration: none;
+
+}
+
+.thumbnail {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.thumbnail::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.thumbnail:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
